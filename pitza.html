@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pitza.css">
+    <title>طريقة عمل البيتزا الإيطالية الأصلية</title>
+</head>
+<body>
+    <div class="scroll-indicator">
+        <div class="scroll-progress" id="scrollProgress"></div>
+    </div>
+
+    <div class="floating-pizza" onclick="scrollToTop()" title="العودة للأعلى">
+        🍕
+    </div>
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <span class="logo-icon">🍽️</span>
+                <span>الطبق السعيد</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="#recipes">الوصفات</a></li>
+                <li><a href="#tips">نصائح</a></li>
+                <li><a href="#about">عنا</a></li>
+                <li><a href="#contact">تواصل</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="header">
+            <span class="pizza-icon">🍕</span>
+            <h1>البيتزا الإيطالية الأصلية</h1>
+            <p>اكتشف أسرار البيتزا الإيطالية الحقيقية - وصفة مجربة من قلب إيطاليا</p>
+            <span class="flag-badge">🇮🇹 Authentic Italian Recipe</span>
+            <span class="difficulty-badge">👨‍🍳 متوسط الصعوبة</span>
+        </div>
+
+        <div class="section">
+            <div class="section-header">
+                <span class="section-icon">🛒</span>
+                <h2 class="section-title">المقادير المطلوبة</h2>
+            </div>
+            <div class="ingredients-container">
+                <div class="ingredient-section">
+                    <h4>عجينة البيتزا</h4>
+                    <ul class="ingredient-list">
+                        <li class="ingredient-item">
+                            <span class="ingredient-name">دقيق قوي (خبز)</span>
+                            <span class="ingredient-amount">500 جرام</span>
+                        </li>
+                        <li class="ingredient-item">
+                            <span class="ingredient-name">ماء دافئ</span>
+                            <span class="ingredient-amount">325 مل</span>
+                        </li>
+                        <li class="ingredient-item">
+                            <span class="ingredient-name">خميرة فورية</span>
+                            <span class="ingredient-amount">7 جرام</span>
+                        </li>
+                        <li class="ingredient-item">
+                            <span class="ingredient-name">ملح البحر</span>
+                            <span class="ingredient-amount">10 جرام</span>
+                        </li>
+                        <li class="ingredient-item">
+                            <span class="ingredient-name">زيت زيتون بكر</span>
+                            <span class="ingredient-amount">2 ملعقة كبيرة</span>
+                        </li>
+                        <li class="ingredient-item">
+                            <span class="ingredient-name">سكر</span>
+                            <span class="ingredient-amount">ملعقة صغيرة</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="ingredient-section">
+                    <h4>صلصة الطماطم</h4>
+                    <ul class="ingredient-list">
+                        <li class="ingredient-item">
+                            <span class="ingredient-name">طماطم مقشرة معلبة</span>
+                            <span class="ingredient-amount">400 جرام</span>
+                        </li>
+                        <li class="ingredient-item">
+                            <span class="ingredient-name">ثوم مفروم</span>
+                            <span class="ingredient-amount">3 فصوص</span>
+                        </li>
+                        <li class="ingredient-item">
+                            <span class="ingredient-name">ريحان طازج</span>
+                            <span class="ingredient-amount">10 أوراق</span>
+                        </li>
+                        <li class="ingredient-item">
+                            <span class="ingredient-name">أوريجانو مجفف</span>
+                            <span class="ingredient-amount">ملعقة صغيرة</span>
+                        </li>
+                        <li class="ingredient-item">
+                            <span class="ingredient-name">ملح وفلفل أسود</span>
+                            <span class="ingredient-amount">حسب الطعم</span>
+                        </li>
+                        <li class="ingredient-item">
+                            <span class="ingredient-name">زيت زيتون</span>
+                            <span class="ingredient-amount">ملعقة كبيرة</span>
+                        </li>
+                    </ul>
+                 </div>
+        </div>
+
+        <div class="section">
+            <div class="section-header">
+                <span class="section-icon">👨‍🍳</span>
+                <h2 class="section-title">خطوات التحضير</h2>
+            </div>
+            <div class="steps-timeline">
+                <div class="step">
+                    <h4>تحضير العجينة</h4>
+                    <p>في وعاء كبير، اخلطي الدقيق والملح في جهة واحدة. في كوب منفصل، اذيبي الخميرة والسكر في الماء الدافئ واتركيها لمدة 5 دقائق حتى تصبح رغوية. أضيفي خليط الخميرة وزيت الزيتون للدقيق واعجني لمدة 10 دقائق حتى تصبح العجينة ناعمة ومرنة.</p>
+                    <div class="time-temp">
+                        <span class="time-badge">⏱️ 15 دقيقة</span>
+                        <span class="temp-badge">🌡️ ماء دافئ (37°م)</span>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <h4>التخمير الأول</h4>
+                    <p>ضعي العجينة في وعاء مدهون بزيت الزيتون، وغطيها بمنشفة رطبة أو بلاستيك. اتركيها في مكان دافئ لمدة ساعة إلى ساعة ونصف حتى تتضاعف في الحجم. هذا مهم جداً للحصول على قوام هوائي مثالي.</p>
+                    <div class="time-temp">
+                        <span class="time-badge">⏱️ 90 دقيقة</span>
+                        <span class="temp-badge">🌡️ مكان دافئ (25°م)</span>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <h4>تحضير الصلصة</h4>
+                    <p>اهرسي الطماطم المعلبة بالشوكة أو بالخلاط لثوانٍ قليلة (لا تجعليها ناعمة تماماً). في مقلاة، سخني زيت الزيتون وأضيفي الثوم المفروم حتى يذبل. أضيفي الطماطم المهروسة والأوريجانو والريحان والملح والفلفل. اتركي الصلصة تنضج على نار هادئة لمدة 15 دقيقة حتى تثخن.</p>
+                    <div class="time-temp">
+                        <span class="time-badge">⏱️ 20 دقيقة</span>
+                        <span class="temp-badge">🌡️ نار هادئة</span>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <h4>تحضير الفرن والأدوات</h4>
+                    <p>سخني الفرن على أعلى درجة حرارة ممكنة (250°م على الأقل). ضعي حجر البيتزا أو صينية معدنية سميكة في الفرن لتسخن مع الفرن. هذا سر الحصول على قاعدة مقرمشة مثل المطاعم الإيطالية.</p>
+                    <div class="time-temp">
+                        <span class="time-badge">⏱️ 30 دقيقة تسخين</span>
+                        <span class="temp-badge">🌡️ 250°م أو أعلى</span>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <h4>تقسيم وفرد العجينة</h4>
+                    <p>بعد انتهاء التخمير، اقسمي العجينة إلى نصفين للحصول على بيتزا بحجم متوسط، أو اتركيها كاملة لبيتزا كبيرة. على سطح مرشوش بالدقيق، افردي العجينة برفق بأطراف أصابعك من الوسط للخارج. لا تستعملي الشوبك! هذا يحافظ على الهواء في العجينة.</p>
+                    <div class="time-temp">
+                        <span class="time-badge">⏱️ 10 دقائق</span>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <h4>إضافة الصلصة والطبقات</h4>
+                    <p>باستخدام معلقة كبيرة، وزعي طبقة رقيقة من الصلصة على العجينة، مع ترك 2 سم من الأطراف للقشرة. قطعي جبنة الموتزاريلا إلى قطع صغيرة ووزعيها بالتساوي. أضيفي أي إضافات تريدينها، ثم رشي جبنة البارميزان المبشورة.</p>
+                    <div class="time-temp">
+                        <span class="time-badge">⏱️ 5 دقائق</span>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <h4>الخبز والتقديم</h4>
+                    <p>انقلي البيتزا بحذر إلى الحجر الساخن أو الصينية في الفرن. اخبزيها لمدة 12-15 دقيقة حتى تصبح الأطراف ذهبية والجبنة فقاعية ومحمرة قليلاً. أخرجيها من الفرن واتركيها تبرد دقيقتين، ثم أضيفي أوراق الريحان الطازج ورشة من زيت الزيتون الفاخر.</p>
+                    <div class="time-temp">
+                        <span class="time-badge">⏱️ 15 دقيقة</span>
+                        <span class="temp-badge">🌡️ 250°م</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section tips-section">
+            <div class="section-header">
+                <span class="section-icon">🎯</span>
+                <h2 class="section-title">أسرار البيتزا المثالية</h2>
+            </div>
+            <div class="tip">
+                <strong>سر العجينة المرنة:</strong> استخدمي دقيق قوي (خبز) بدلاً من الدقيق العادي، واعجني جيداً لتطوير الجلوتين الذي يعطي المرونة.
+            </div>
+            <div class="tip">
+                <strong>التخمير البطيء:</strong> للحصول على نكهة أعمق، يمكنك ترك العجينة تتخمر في الثلاجة لمدة 24-72 ساعة قبل الاستعمال.
+            </div>
+            <div class="tip">
+                <strong>حرارة عالية جداً:</strong> البيتزا الإيطالية تُخبز على حرارة عالية جداً. استخدمي أعلى درجة في فرنك وسخني حجر البيتزا مسبقاً.
+            </div>
+            <div class="tip">
+                <strong>صلصة خفيفة:</strong> لا تضعي صلصة كثيرة! طبقة رقيقة كافية لتجنب جعل القاعدة رطبة ومطاطية.
+            </div>
+            <div class="tip">
+                <strong>الجبنة الطازجة:</strong> استخدمي موتزاريلا طازجة وصفيها من الماء الزائد قبل الاستعمال لتجنب البيتزا المائية.
+            </div>
+            <div class="tip">
+                <strong>فرد العجينة:</strong> استخدمي أطراف أصابعك لفرد العجينة بدلاً من الشوبك للحفاظ على فقاعات الهواء الطبيعية.
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-header">
+                <span class="section-icon">🍕</span>
+                <h2 class="section-title">أنواع البيتزا الإيطالية الكلاسيكية</h2>
+            </div>
+            <div class="toppings-grid">
+                <div class="topping-category" style="border-color: #dc143c;">
+                    <div class="topping-title" style="color: #dc143c;">🍅 مارغريتا الكلاسيكية</div>
+                    <ul class="topping-list">
+                        <li>صلصة طماطم طازجة</li>
+                        <li>موتزاريلا فيور دي لاتيه</li>
+                        <li>ريحان طازج</li>
+                        <li>زيت زيتون بكر ممتاز</li>
+                        <li>ملح البحر</li>
+                    </ul>
+                </div>
+                
+                <div class="topping-category" style="border-color: #8b4513;">
+                    <div class="topping-title" style="color: #8b4513;">🍄 فونجي (الفطر)</div>
+                    <ul class="topping-list">
+                        <li>صلصة طماطم</li>
+                        <li>موتزاريلا</li>
+                        <li>فطر بورتشيني طازج</li>
+                        <li>ثوم مقطع رقيق</li>
+                        <li>بقدونس إيطالي</li>
+                    </ul>
+                </div>
+
+                <div class="topping-category" style="border-color: #ff4500;">
+                    <div class="topping-title" style="color: #ff4500;">🌶️ ديافولا (الحارة)</div>
+                    <ul class="topping-list">
+                        <li>صلصة طماطم حارة</li>
+                        <li>موتزاريلا</li>
+                        <li>سلامي حار (ندوجا)</li>
+                        <li>فلفل أحمر مجفف</li>
+                        <li>أوريجانو</li>
+                    </ul>
+                </div>
+
+                <div class="topping-category" style="border-color: #228b22;">
+                    <div class="topping-title" style="color: #228b22;">🥬 كواترو فورماجي</div>
+                    <ul class="topping-list">
+                        <li>صلصة بيضاء (كريمة)</li>
+                        <li>موتزاريلا</li>
+                        <li>جورجونزولا</li>
+                        <li>بارميزان</li>
+                        <li>بيكورينو رومانو</li>
+                    </ul>
+                </div>
+
+                <div class="topping-category" style="border-color: #4169e1;">
+                    <div class="topping-title" style="color: #4169e1;">🐟 مارينارا</div>
+                    <ul class="topping-list">
+                        <li>صلصة طماطم</li>
+                        <li>ثوم مفروم</li>
+                        <li>أوريجانو</li>
+                        <li>زيت زيتون</li>
+                        <li>بدون جبنة (تقليدية)</li>
+                    </ul>
+                </div>
+
+                <div class="topping-category" style="border-color: #da70d6;">
+                    <div class="topping-title" style="color: #da70d6;">🥓 كابريتشيوزا</div>
+                    <ul class="topping-list">
+                        <li>صلصة طماطم</li>
+                        <li>موتزاريلا</li>
+                        <li>خرشوف مخلل</li>
+                        <li>فطر</li>
+                        <li>لحم مقدد إيطالي</li>
+                        <li>زيتون أسود</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+       
+        <div class="section tips-section" style="background: linear-gradient(135deg, #e6f3ff, #cce7ff); border-right: 8px solid #4a90e2;">
+            <div class="section-header">
+                <span class="section-icon">❓</span>
+                <h2 class="section-title">أسئلة شائعة</h2>
+            </div>
+            
+            <div class="tip" style="background: rgba(255, 255, 255, 0.8); border-right: 5px solid #4a90e2;">
+                <strong>س: هل يمكن تحضير العجينة مسبقاً؟</strong><br>
+                ج: نعم! يمكن حفظ العجينة في الثلاجة لمدة 3 أيام أو في الفريزر لمدة 3 أشهر. التخمير البطيء يحسن النكهة.
+            </div>
+            
+            <div class="tip" style="background: rgba(255, 255, 255, 0.8); border-right: 5px solid #4a90e2;">
+                <strong>س: لماذا قاعدة البيتزا ليست مقرمشة؟</strong><br>
+                ج: تأكدي من تسخين الفرن جيداً، واستخدمي حجر بيتزا، ولا تضعي صلصة كثيرة، وصففي الموتزاريلا من الماء الزائد.
+            </div>
+            
+            <div class="tip" style="background: rgba(255, 255, 255, 0.8); border-right: 5px solid #4a90e2;">
+                <strong>س: ما البديل لحجر البيتزا؟</strong><br>
+                ج: يمكن استخدام صينية معدنية ثقيلة مقلوبة أو صينية خبز سميكة، المهم تسخينها في الفرن مسبقاً.
+            </div>
+            
+            <div class="tip" style="background: rgba(255, 255, 255, 0.8); border-right: 5px solid #4a90e2;">
+                <strong>س: كيف أحفظ البيتزا المتبقية؟</strong><br>
+                ج: في الثلاجة لمدة 3 أيام. لإعادة التسخين، استخدمي مقلاة على نار متوسطة لمدة دقيقتين ثم غطيها لدقيقة.
+            </div>
+        </div>
+
+        <div class="fun-fact">
+            <h3>👨‍🍳 نصيحة الشيف الإيطالي</h3>
+            <p>"La pizza è un'arte, non solo un cibo!" - البيتزا فن وليس مجرد طعام! السر في البيتزا المثالية هو البساطة والمكونات عالية الجودة. لا تكثري من الطبقات، ودعي كل مكون يعبر عن نفسه. وتذكري... Amore è l'ingrediente segreto! الحب هو المكون السري! ❤️</p>
+        </div>
+
+        <div class="rating-section">
+            <h3>قيمي وصفة البيتزا</h3>
+            <div class="stars" id="ratingStars">
+                <span class="star" data-rating="1">⭐</span>
+                <span class="star" data-rating="2">⭐</span>
+                <span class="star" data-rating="3">⭐</span>
+                <span class="star" data-rating="4">⭐</span>
+                <span class="star" data-rating="5">⭐</span>
+            </div>
+            <div class="rating-text" id="ratingText">انقري على النجوم لتقييم الوصفة</div>
+            <div class="action-buttons">
+                <button class="btn btn-save" onclick="saveRecipe()">
+                    💾 حفظ الوصفة
+                </button>
+                <button class="btn btn-share" onclick="shareRecipe()">
+                    📤 مشاركة
+                </button>
+                <button class="btn btn-print" onclick="printRecipe()">
+                    🖨️ طباعة
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+
+        <div class="fun-fact">
+            <h3>🇮🇹 هل تعلم؟</h3>
+            <p>البيتزا المارغريتا اخترعت في نابولي عام 1889 تكريماً للملكة مارغريتا الإيطالية، وألوانها (الأحمر والأبيض والأخضر) تمثل علم إيطاليا. والبيتزا الحقيقية تُخبز في فرن خشبي على درجة 485°م!</p>
+        </div>
+
+                <script src="pitza.js"></script>
+</body>
+</html>

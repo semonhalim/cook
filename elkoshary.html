@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="elkoshary.css">
+    <title>طريقة عمل الكشري المصري الأصيل</title>
+</head>
+<body>
+    <div class="scroll-indicator">
+        <div class="scroll-progress" id="scrollProgress"></div>
+    </div>
+
+    <div class="floating-chef" onclick="scrollToTop()" title="العودة للأعلى">
+        👨‍🍳
+    </div>
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <span class="logo-icon">🍽️</span>
+                <span>الطبق السعيد</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="#recipes">الوصفات</a></li>
+                <li><a href="#tips">نصائح</a></li>
+                <li><a href="#about">عنا</a></li>
+                <li><a href="#contact">تواصل</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="header">
+            <span class="recipe-icon">🍚</span>
+            <h1>الكشري المصري الأصيل</h1>
+            <p>أشهر وأطعم أكلة شعبية مصرية - وصفة مجربة ومضمونة</p>
+        </div>
+
+
+        <div class="fun-fact">
+            <h3>🇪🇬 هل تعلم؟</h3>
+            <p>الكشري هو الطبق الشعبي الأول في مصر ويعتبر من أكثر الأطباق إقبالاً من جميع طبقات الشعب المصري. يتكون من مزيج مثالي من الكربوهيدرات والبروتينات النباتية!</p>
+        </div>
+
+        <div class="section">
+            <div class="section-header">
+                <span class="section-icon">🛒</span>
+                <h2 class="section-title">المقادير المطلوبة</h2>
+            </div>
+            <div class="ingredients-grid">
+                <div class="ingredient-category">
+                    <h4>المكونات الأساسية</h4>
+                    <ul class="ingredient-list">
+                        <li>
+                            <span class="ingredient-name">أرز أبيض</span>
+                            <span class="ingredient-amount">2 كوب</span>
+                        </li>
+                        <li>
+                            <span class="ingredient-name">عدس أسود (بجبة)</span>
+                            <span class="ingredient-amount">كوب واحد</span>
+                        </li>
+                        <li>
+                            <span class="ingredient-name">شعيرية</span>
+                            <span class="ingredient-amount">نص كوب</span>
+                        </li>
+                        <li>
+                            <span class="ingredient-name">مكرونة صغيرة</span>
+                            <span class="ingredient-amount">كوب واحد</span>
+                        </li>
+                        <li>
+                            <span class="ingredient-name">حمص حب مسلوق</span>
+                            <span class="ingredient-amount">نص كوب</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="ingredient-category">
+                    <h4>للصلصة الحمراء</h4>
+                    <ul class="ingredient-list">
+                        <li>
+                            <span class="ingredient-name">طماطم مفرومة</span>
+                            <span class="ingredient-amount">4 حبات كبيرة</span>
+                        </li>
+                        <li>
+                            <span class="ingredient-name">معجون طماطم</span>
+                            <span class="ingredient-amount">2 ملعقة كبيرة</span>
+                        </li>
+                        <li>
+                            <span class="ingredient-name">ثوم مفروم</span>
+                            <span class="ingredient-amount">4 فصوص</span>
+                        </li>
+                        <li>
+                            <span class="ingredient-name">خل أبيض</span>
+                            <span class="ingredient-amount">ربع كوب</span>
+                        </li>
+                        <li>
+                            <span class="ingredient-name">زيت نباتي</span>
+                            <span class="ingredient-amount">3 ملاعق كبيرة</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="ingredient-category">
+                    <h4>للعدس والبصل</h4>
+                    <ul class="ingredient-list">
+                        <li>
+                            <span class="ingredient-name">عدس أحمر مجروش</span>
+                            <span class="ingredient-amount">نص كوب</span>
+                        </li>
+                        <li>
+                            <span class="ingredient-name">بصل مقطع شرائح</span>
+                            <span class="ingredient-amount">3 حبات كبيرة</span>
+                        </li>
+                        <li>
+                            <span class="ingredient-name">زيت للقلي</span>
+                            <span class="ingredient-amount">كوب ونصف</span>
+                        </li>
+                        <li>
+                            <span class="ingredient-name">دقيق أبيض</span>
+                            <span class="ingredient-amount">ملعقتين كبيرة</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="ingredient-category">
+                    <h4>البهارات والتوابل</h4>
+                    <ul class="ingredient-list">
+                        <li>
+                            <span class="ingredient-name">ملح</span>
+                            <span class="ingredient-amount">حسب الطعم</span>
+                        </li>
+                        <li>
+                            <span class="ingredient-name">فلفل أسود</span>
+                            <span class="ingredient-amount">نص ملعقة صغيرة</span>
+                        </li>
+                        <li>
+                            <span class="ingredient-name">كمون مطحون</span>
+                            <span class="ingredient-amount">ملعقة صغيرة</span>
+                        </li>
+                        <li>
+                            <span class="ingredient-name">كزبرة مطحونة</span>
+                            <span class="ingredient-amount">نص ملعقة صغيرة</span>
+                        </li>
+                        <li>
+                            <span class="ingredient-name">شطة مطحونة</span>
+                            <span class="ingredient-amount">ملعقة صغيرة</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-header">
+                <span class="section-icon">👨‍🍳</span>
+                <h2 class="section-title">خطوات التحضير</h2>
+            </div>
+            <div class="steps-container">
+                <div class="step">
+                    <h4>تحضير العدس الأسود</h4>
+                    <p>اغسلي العدس الأسود جيداً ثم ضعيه في إناء مع الماء واتركيه ينقع لمدة ساعتين. بعدها اسلقيه في ماء مغلي مملح لمدة 20-25 دقيقة حتى ينضج تماماً.</p>
+                    <span class="cooking-time">⏱️ 25 دقيقة</span>
+                </div>
+
+                <div class="step">
+                    <h4>سلق الأرز</h4>
+                    <p>اغسلي الأرز جيداً حتى يصبح الماء صافي. في مقلاة عميقة، حمري الشعيرية في ملعقة زيت حتى تصبح ذهبية اللون، ثم أضيفي الأرز وحركي لدقيقتين. أضيفي الماء المغلي والملح واتركيه ينضج على نار هادئة.</p>
+                    <span class="cooking-time">⏱️ 20 دقيقة</span>
+                </div>
+
+                <div class="step">
+                    <h4>سلق المكرونة</h4>
+                    <p>في إناء منفصل، اسلقي المكرونة الصغيرة في ماء مغلي مملح لمدة 10-12 دقيقة حتى تنضج. صفيها واتركيها جانباً.</p>
+                    <span class="cooking-time">⏱️ 12 دقيقة</span>
+                </div>
+
+                <div class="step">
+                    <h4>تحضير العدس الأحمر</h4>
+                    <p>اغسلي العدس الأحمر واسلقيه في ماء مغلي مع قليل من الملح لمدة 15 دقيقة حتى يذوب ويصبح كريمي القوام. أضيفي الكمون والفلفل الأسود.</p>
+                    <span class="cooking-time">⏱️ 15 دقيقة</span>
+                </div>
+
+                <div class="step">
+                    <h4>قلي البصل</h4>
+                    <p>قطعي البصل إلى شرائح رفيعة، ثم اقليه في زيت غزير على نار متوسطة حتى يصبح ذهبي اللون ومقرمش. أخرجيه واتركيه على ورق مطبخ ليتخلص من الزيت الزائد.</p>
+                    <span class="cooking-time">⏱️ 15 دقيقة</span>
+                </div>
+
+                <div class="step">
+                    <h4>تحضير الصلصة الحمراء</h4>
+                    <p>في مقلاة، سخني الزيت وأضيفي الثوم المفروم حتى يذبل. أضيفي معجون الطماطم وحركي لدقيقة، ثم أضيفي الطماطم المفرومة والبهارات والخل. اتركي الخليط ينضج لمدة 15-20 دقيقة حتى يثخن قوامه.</p>
+                    <span class="cooking-time">⏱️ 20 دقيقة</span>
+                </div>
+
+                <div class="step">
+                    <h4>التقديم والتركيب</h4>
+                    <p>في طبق التقديم، ضعي طبقة من الأرز بالشعيرية، ثم طبقة من العدس الأسود، ثم المكرونة، ثم العدس الأحمر، والحمص المسلوق. اسكبي الصلصة الحمراء فوق الخليط وزيني بالبصل المقلي المقرمش.</p>
+                    <span class="cooking-time">⏱️ 5 دقائق</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="section tips-section">
+            <div class="section-header">
+                <span class="section-icon">🎯</span>
+                <h2 class="section-title">نصائح مهمة للنجاح</h2>
+            </div>
+            <div class="tip">
+                <strong>سر البصل المقرمش:</strong> قطعي البصل بسمك متساوي واقليه على نار متوسطة، وتأكدي من تجفيفه جيداً من الزيت.
+            </div>
+            <div class="tip">
+                <strong>نكهة الصلصة:</strong> اتركي الصلصة تنضج على نار هادئة حتى تتجانس النكهات وتصبح كثيفة القوام.
+            </div>
+            <div class="tip">
+                <strong>العدس الأحمر:</strong> تأكدي من هرسه جيداً ليصبح كريمي ناعم ويربط مكونات الكشري معاً.
+            </div>
+            <div class="tip">
+                <strong>التوابل:</strong> تذوقي كل مكون أثناء الطبخ واضبطي البهارات حسب ذوقك الشخصي.
+            </div>
+            <div class="tip">
+                <strong>حفظ الطعم:</strong> الكشري طعمه أفضل عند تناوله ساخناً مباشرة، لكن يمكن حفظه في الثلاجة لمدة 3 أيام.
+            </div>
+        </div>
+
+       
+
+        <div class="video-section">
+            <div class="section-header" style="justify-content: center; border: none;">
+                <span class="section-icon">🎥</span>
+                <h2 class="section-title">شاهد طريقة التحضير</h2>
+            </div>
+            <div class="video-placeholder" onclick="showVideoMessage()">
+                <strong>فيديو توضيحي لطريقة عمل الكشري</strong>
+                <p>انقر لمشاهدة خطوات التحضير بالتفصيل</p>
+            </div>
+        </div>
+
+        <div class="fun-fact">
+            <h3>🏺 تاريخ الكشري</h3>
+            <p>يعود أصل الكشري إلى الهند، وانتشر في مصر خلال القرن التاسع عشر مع الجنود البريطانيين. تطور الطبق ليصبح رمزاً للطعام الشعبي المصري بنكهته المميزة!</p>
+        </div>
+
+        <div class="section">
+            <div class="section-header">
+                <span class="section-icon">🍽️</span>
+                <h2 class="section-title">أفكار للتقديم والتنويع</h2>
+            </div>
+            
+            <div class="ingredients-grid">
+                <div class="ingredient-category">
+                    <h4>تقديم كلاسيكي</h4>
+                    <ul class="ingredient-list">
+                        <li>
+                            <span class="ingredient-name">سلطة خضراء</span>
+                            <span class="ingredient-amount">🥗</span>
+                        </li>
+                        <li>
+                            <span class="ingredient-name">طحينة بالليمون</span>
+                            <span class="ingredient-amount">🍋</span>
+                        </li>
+                        <li>
+                            <span class="ingredient-name">مخلل متنوع</span>
+                            <span class="ingredient-amount">🥒</span>
+                        </li>
+                        <li>
+                            <span class="ingredient-name">شوربة عدس</span>
+                            <span class="ingredient-amount">🍲</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="ingredient-category">
+                    <h4>إضافات مميزة</h4>
+                    <ul class="ingredient-list">
+                        <li>
+                            <span class="ingredient-name">لحمة مفرومة</span>
+                            <span class="ingredient-amount">اختياري</span>
+                        </li>
+                        <li>
+                            <span class="ingredient-name">فراخ مسلوقة</span>
+                            <span class="ingredient-amount">قطع صغيرة</span>
+                        </li>
+                        <li>
+                            <span class="ingredient-name">جبنة فيتا</span>
+                            <span class="ingredient-amount">مكعبات</span>
+                        </li>
+                        <li>
+                            <span class="ingredient-name">بيض مسلوق</span>
+                            <span class="ingredient-amount">أنصاف</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="ingredient-category">
+                    <h4>صلصات إضافية</h4>
+                    <ul class="ingredient-list">
+                        <li>
+                            <span class="ingredient-name">صلصة ثوم</span>
+                            <span class="ingredient-amount">حارة</span>
+                        </li>
+                        <li>
+                            <span class="ingredient-name">صلصة دقة</span>
+                            <span class="ingredient-amount">بالكزبرة</span>
+                        </li>
+                        <li>
+                            <span class="ingredient-name">تتبيلة خل</span>
+                            <span class="ingredient-amount">بالشطة</span>
+                        </li>
+                        <li>
+                            <span class="ingredient-name">زيت محمر</span>
+                            <span class="ingredient-amount">بالبصل</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="ingredient-category">
+                    <h4>تنويعات صحية</h4>
+                    <ul class="ingredient-list">
+                        <li>
+                            <span class="ingredient-name">أرز بني</span>
+                            <span class="ingredient-amount">عالي الألياف</span>
+                        </li>
+                        <li>
+                            <span class="ingredient-name">كينوا</span>
+                            <span class="ingredient-amount">بديل الأرز</span>
+                        </li>
+                        <li>
+                            <span class="ingredient-name">خضروات مشوية</span>
+                            <span class="ingredient-amount">باذنجان وكوسة</span>
+                        </li>
+                        <li>
+                            <span class="ingredient-name">زيت زيتون</span>
+                            <span class="ingredient-amount">بدل الزيت العادي</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-header">
+                <span class="section-icon">❓</span>
+                <h2 class="section-title">أسئلة شائعة</h2>
+            </div>
+            
+            <div class="tips-section" style="background: linear-gradient(135deg, #e6f3ff, #cce7ff); border-left: 5px solid #4a90e2;">
+                <div class="tip" style="background: rgba(255, 255, 255, 0.8); border-left: 3px solid #4a90e2;">
+                    <strong>س: هل يمكن تحضير الكشري مسبقاً؟</strong><br>
+                    ج: نعم، يمكن طبخ كل مكون على حدة وحفظه في الثلاجة، ثم تجميعهم عند التقديم مع تسخين الصلصة.
+                </div>
+                
+                <div class="tip" style="background: rgba(255, 255, 255, 0.8); border-left: 3px solid #4a90e2;">
+                    <strong>س: ماذا لو لم أجد العدس الأسود؟</strong><br>
+                    ج: يمكن استخدام العدس الأخضر أو البني كبديل، لكن العدس الأسود يعطي الطعم الأصيل.
+                </div>
+                
+                <div class="tip" style="background: rgba(255, 255, 255, 0.8); border-left: 3px solid #4a90e2;">
+                    <strong>س: كيف أحصل على بصل مقرمش مثالي؟</strong><br>
+                    ج: سر البصل المقرمش هو التقطيع المتساوي والقلي على نار متوسطة مع التحريك المستمر وتجفيفه جيداً.
+                </div>
+                
+                <div class="tip" style="background: rgba(255, 255, 255, 0.8); border-left: 3px solid #4a90e2;">
+                    <strong>س: هل يمكن تجميد الكشري؟</strong><br>
+                    ج: يُفضل عدم تجميد الكشري لأن قوام الأرز والمكرونة يتغير، لكن يمكن حفظه في الثلاجة لمدة 3 أيام.
+                </div>
+            </div>
+        </div>
+
+        <div class="rating-section">
+            <h3>قيم هذه الوصفة</h3>
+            <div class="stars" id="ratingStars">
+                <span class="star" data-rating="1">⭐</span>
+                <span class="star" data-rating="2">⭐</span>
+                <span class="star" data-rating="3">⭐</span>
+                <span class="star" data-rating="4">⭐</span>
+                <span class="star" data-rating="5">⭐</span>
+            </div>
+            <div class="rating-text" id="ratingText">انقر على النجوم لتقييم الوصفة</div>
+            <div style="margin-top: 15px;">
+                <button class="btn" onclick="saveRecipe()" style="background: linear-gradient(45deg, #e91e63, #f06292); margin-left: 10px;">💾 حفظ الوصفة</button>
+                <button class="btn" onclick="shareRecipe()" style="background: linear-gradient(45deg, #2196f3, #64b5f6); margin-left: 10px;">📤 مشاركة</button>
+                <button class="btn" onclick="printRecipe()" style="background: linear-gradient(45deg, #4caf50, #81c784);">🖨️ طباعة</button>
+            </div>
+        </div>
+        <div class="fun-fact">
+            <h3>👨‍🍳 نصيحة الشيف</h3>
+            <p>سر الكشري الطعم الأصيل هو في توازن النكهات - لا تنسي تذوق كل مكون أثناء الطبخ واضبطي البهارات حسب ذوقك. والأهم من ده كله... اطبخيه بحب! ❤️</p>
+        </div>
+    </div>
+<script src="elkoshary.js"></script>
+</body>
+</html>
